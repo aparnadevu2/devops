@@ -5,20 +5,19 @@ pipeline{
        steps{
          echo 'this is first build'
             }
+            }
+            
        stage('second job'){
            steps{
             echo 'this is second build'
+           }
            }
         stage('hello world'){
            steps{
            echo 'this is third build'
            }
-           
            }  
-        
-          }
-        
-      }
+      
       }
       }
     
