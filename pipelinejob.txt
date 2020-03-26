@@ -1,0 +1,22 @@
+pipeline{
+  agent any
+  stages{
+      stage( 'simple job'){
+	  steps{
+	     echo 'this is test job'
+		 }
+		 }
+            stage('second stage'){
+		 steps{
+		  echo 'this is second job'
+		 }
+		 }
+           stage('third stage'){
+             steps{
+               echo 'this is third job'
+               }
+             }
+
+
+ }
+}
