@@ -18,6 +18,10 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+    <scm>
+<connection>scm:https://github.com/aparnadevu2/devops.git/</connection>
+<developerConnection>scm:https://github.com/aparnadevu2/devops.git/</developerConnection>
+</scm>
  <distributionManagement>
   <repository>
     <id>devops-release</id>
