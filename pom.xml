@@ -19,16 +19,15 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-    
- <distributionManagement>
+    <distributionManagement>
   <repository>
     <id>devops-release</id>
     <url>http://localhost:8081/nexus/content/repositories/devops-release</url>
   </repository>
-  <snapshotRepository>
+    <snapshotRepository>
     <id>devops-snapshot</id>
     <url>http://localhost:8081/nexus/content/repositories/devops-snapshot</url>
-  </snapshotRepository> 
+  </snapshotRepository>    
 </distributionManagement>
     <repositories>
     <repository>
